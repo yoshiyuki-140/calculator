@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電卓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>電卓</h1>
+    <div id="output"></div>
+    <div id="input">
+      <div class="row">
+        <button class="button operation" id="shift">→</button>
+        <button class="button digit" id="seven">7</button>
+        <button class="button digit" id="eight">8</button>
+        <button class="button digit" id="nine">9</button>
+        <button class="button operation" id="divide">/</button>
+      </div>
+      <div class="row">
+        <button class="button operation" id="clear">C</button>
+        <button class="button digit" id="four">4</button>
+        <button class="button digit" id="five">5</button>
+        <button class="button digit" id="six">6</button>
+        <button class="button operation" id="mul">x</button>
+      </div>
+      <div class="row">
+        <button class="button operation" id="AC">AC</button>
+        <button class="button digit" id="one">1</button>
+        <button class="button digit" id="two">2</button>
+        <button class="button digit" id="three">3</button>
+        <button class="button operation" id="minus">-</button>
+      </div>
+      <div class="row">
+        <button class="button digit" id="zero">0</button>
+        <button class="button operation" id="double-zero">00</button>
+        <button class="button operation" id="decimal-point">.</button>
+        <button class="button operation" id="equal" onclick="calc()">=</button>
+        <button class="button operation" id="plus">+</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
